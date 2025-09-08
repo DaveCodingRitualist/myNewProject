@@ -1,0 +1,51 @@
+.container {
+    background-color: lightskyblue;
+    height: 800px;
+    width: 80%;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+/* When flex-direction is column, the main axis is horizontal  */
+.box1, .box2, .box3 {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: lightcoral;
+}
+.box2 {
+    background-color: lightgreen;
+    position: sticky;
+    bottom: 5px;
+    right: 5px;
+    
+}
+.box3 {
+    background-color: lightpink;
+}
+
+
+/* CSS POSITION */
+
+/* position
+
+static: default value
+relative: the position is relative to its normal position
+absolute: the position is relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed)
+fixed: the position is relative to the viewport, which means it always stays in the same place even if the page is scrolled
+sticky: the element is positioned based on the user's scroll position
+*/
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
